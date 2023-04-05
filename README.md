@@ -31,7 +31,8 @@ The algorithm works by iteratively updating the parameters according to the foll
 $$ b = b - \alpha∇L(b) $$
 
 $$ \Rightarrow b_j = b_j - \alpha \frac{\partial } {\partial b_j} L(b) $$
-$$ \Rightarrow b_j = b_j - \frac{\alpha}{m} \Sigma_{i=1}^{m} (\hat{y_i} - y_i)x_i $$
+
+$$ \Rightarrow b_j = b_j - \frac{\alpha}{m} \Sigma_{i=1}^{m} [(\hat{y_i} - y_i)x_i] $$
 
 where:
 
