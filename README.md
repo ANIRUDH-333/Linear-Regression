@@ -41,3 +41,5 @@ b is the vector of model parameters, the coefficients and intercept in the case 
 ∇L(b) is the gradient of the cost function with respect to the parameters b \
 <br>
 The algorithm continues to iterate until the parameters converge to a minimum of the cost function or a maximum number of iterations is reached.
+
+A detailed code for single and multi variable linear regression with Gradient descent and in-built are implemented in [Linear Regression].
